@@ -1,0 +1,47 @@
+﻿body {
+    background: #c484ba54;
+}
+
+.login-page, .welcomecontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 100px;
+}
+
+.login-container {
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+    border-radius: 2%;
+    border: solid #270722 1px;
+    background-color: #27072254;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+    .form-container input {
+        background: #f2f2f2;
+        padding: 10px 15px;
+        border: none;
+        width: 100%;
+        margin-top: 10px;
+        color: black;
+    }
+
+.login-container .password {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
